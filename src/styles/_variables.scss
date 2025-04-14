@@ -1,0 +1,87 @@
+// Breakpoints
+$breakpoint-sm: 480px; // Mobile
+$breakpoint-md: 768px; // Tablet
+$breakpoint-lg: 1024px; // Laptop
+
+// Colors
+$color-black: #151515;
+$color-accent: #4EE1A0;
+$color-dark-gray: #242424;
+$color-light-gray: #D9D9D9;
+$color-white: #FFFFFF;
+
+// Typography
+$font-space-grotesk: "Space Grotesk", sans-serif;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+
+// Font size maps
+$font-sizes-sm: (
+    heading-xl: 40px,
+    heading-l: 32px,
+    heading-m: 24px,
+    subheading: 18px,
+    body: 16px,
+    button: 16px,
+    logo: 24px,
+);
+
+$font-sizes-md: (
+    heading-xl: 72px,
+    heading-l: 48px,
+    heading-m: 24px,
+    subheading: 18px,
+    body: 18px,
+    logo: 32px,
+);
+
+$font-sizes-lg: (
+    heading-xl: 88px,
+);
+
+
+// Line height maps
+$line-heights-sm: (
+    heading-xl: 40px,
+    heading-l: 40px,
+    heading-m: 32px,
+    subheading: 28px,
+    body: 26px,
+    button: 26px,
+    logo: 32px,
+);
+
+$line-heights-md: (
+    heading-xl: 72px,
+    heading-l: 56px,
+    body: 28px,
+);
+
+$line-heights-lg: (
+    heading-xl: 88px,
+);
+
+// Letter spacing maps 
+$letter-spacings-sm: (
+    heading-xl: -1.14px,
+    heading-l: -1px,
+    heading-m: -0.33px,
+    button: 2.29px,
+    logo: 0.33px,
+);
+
+$letter-spacings-md: (
+    heading-xl: -2.05px,
+    heading-l: -1.5px,
+    heading-m: -0.44px,
+    logo: 0.44px,
+);
+
+$letter-spacings-lg: (
+    heading-xl: -2.5px,
+    heading-l: -1.5px,
+    heading-m: -0px,
+);
+
+
