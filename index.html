@@ -8,163 +8,157 @@
     <link rel="stylesheet" href="/src/styles/main.scss">
 </head>
 <body>
-    <header class="site-header">
-    <div class="container">
-            <p class="site-logo">adamkeyes</p>
-            
-            <nav class="social-nav">
-                <ul class="social-nav__list">
-                    <li class="social-nav__item">
-                        <a href="#" class="social-nav__link" aria-label="GitHub">
-                            <img src="/public/icons/github.svg" alt="GitHub" class="social-icon">
-                        </a>
-                    </li>
-                    <li class="social-nav__item">
-                        <a href="#" class="social-nav__link" aria-label="Front-end Mentor">
-                            <img src="/public/icons/frontendmentor.svg" alt="Front-end Mentor" class="social-icon">
-                        </a>
-                    </li>
-                    <li class="social-nav__item">  
-                        <a href="#" class="social-nav__link" aria-label="Twitter">
-                            <img src="/public/icons/twitter.svg" alt="Twitter" class="social-icon">
-                        </a>
-                    </li>
-                    <li class="social-nav__item">
-                        <a href="#" class="social-nav__link" aria-label="LinkedIn">
-                            <img src="/public/icons/linkedin.svg" alt="LinkedIn" class="social-icon">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <main class="main-content">
         <section class="hero">
             <div class="container">
-                <div class="hero__content">
-                    <h1 class="hero__title">
-                        Nice to meet you! I'm <span class="text-accent">Adam Keyes</span>.
-                    </h1>
-                    <p class="hero__description">
-                        Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.
-                    </p>
-                    <a href="#contact" class="btn">CONTACT ME</a>
+                <div class="hero__header">
+                    <p class="logo">adamkeyes</p>
+                    <nav class="social-nav">
+                    <ul class="social-nav__list">
+                        <li><a href="#" aria-label="GitHub"><img src="/icons/github.svg" alt="GitHub" class="social-icon" /></a></li>
+                        <li><a href="#" aria-label="Front-end Mentor"><img src="/icons/frontendmentor.svg" alt="Frontend Mentor" class="social-icon" /></a></li>
+                        <li><a href="#" aria-label="LinkedIn"><img src="/icons/linkedin.svg" alt="LinkedIn" class="social-icon" /></a></li>
+                        <li><a href="#" aria-label="Twitter"><img src="/icons/twitter.svg" alt="Twitter" class="social-icon" /></a></li>
+                    
+                    </ul>
+                    </nav>
                 </div>
-                
-                <div class="skills-section">
-                    <h2 class="skills-section__title">Technologies</h2>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">HTML</h3>
-                            <p class="skill-item__experience">4 Years Experience</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">CSS</h3>
-                            <p class="skill-item__experience">4 Years Experience</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">JavaScript</h3>
-                            <p class="skill-item__experience">4 Years Experience</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">Accessibility</h3>
-                            <p class="skill-item__experience">3 Years Experience</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">React</h3>
-                            <p class="skill-item__experience">3 Years Experience</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3 class="skill-item__name">Sass</h3>
-                            <p class="skill-item__experience">3 Years Experience</p>
-                        </div>
+
+                <div class="hero__main">
+                    <img src="public/img/adam-keyes.png" alt="Hero image of Adam Keyes" class="hero__image" />
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                        Nice to meet you! I'm <span class="text-accent">Adam Keyes</span>.
+                        </h1>
+                        <p class="hero__description">
+                        Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.
+                        </p>
+                        <a href="#contact" class="btn__contact btn-text">CONTACT ME</a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <hr>
+
+        <section class="skills-section">
+            <div class="container skills-grid">
+                <div class="skill-item">
+                    <h3 class="skill-item__name">HTML</h3>
+                    <p class="skill-item__experience">4 Years Experience</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-item__name">CSS</h3>
+                    <p class="skill-item__experience">4 Years Experience</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-item__name">JavaScript</h3>
+                    <p class="skill-item__experience">4 Years Experience</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-item__name">Accessibility</h3>
+                    <p class="skill-item__experience">4 Years Experience</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-item__name">React</h3>
+                    <p class="skill-item__experience">3 Years Experience</p>
+                </div>
+                <div class="skill-item">
+                    <h3 class="skill-item__name">Sass</h3>
+                    <p class="skill-item__experience">3 Years Experience</p>
+                </div>
+            </div>
+        </section>
+    
+        <hr>
+
         <section id="projects" class="projects-section">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Projects</h2>
-                    <a href="#contact" class="btn btn--outline">CONTACT ME</a>
+                    <a href="#contact" class="btn__contact btn">CONTACT ME</a>
                 </div>
                 
                 <div class="projects-grid">
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Design portfolio</h3>
+                            <img src="public/img/design-bitmap.png" alt="Design portfolio preview">
+                            <h4 class="project-card__title">Design portfolio</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
 
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">E-learning landing page</h3>
+                            <img src="public/img/e-learning-bitmap.png" alt="E-learning preview">
+                            <h4 class="project-card__title">E-learning landing page</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
                     
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">ToDo Web App</h3>
+                            <img src="public/img/to-do-bitmap.png" alt="To-Do preview">
+                            <h4 class="project-card__title">ToDo Web App</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
 
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Entertainment Web App</h3>
+                            <img src="public/img/entertainment-bitmap.png" alt="Entertainment app preview">
+                            <h4 class="project-card__title">Entertainment Web App</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
 
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Memory Game</h3>
+                            <img src="public/img/memory-game-bitmap.png" alt="Memory game preview">
+                            <h4 class="project-card__title">Memory Game</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
                     
                     <article class="project-card">
                         <div class="project-card__content">
-                            <h3 class="project-card__title">Art Gallery Showcase</h3>
+                            <img src="public/img/art-gallery-bitmap.png" alt="Art Gallery preview">
+                            <h4 class="project-card__title">Art Gallery Showcase</h4>
                             <ul class="project-card__tech">
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>Javascript</li>
                             </ul>
-                            <a href="#" class="project-card__link">View Project</a>
-                            <a href="#" class="project-card__link">View Code</a>
+                            <a href="#" class="btn__view-project btn">View Project</a>
+                            <a href="#" class="btn__view-code btn">View Code</a>
                         </div>
                     </article>
                 </div>
@@ -195,7 +189,7 @@
                         <textarea id="message" name="message" placeholder="MESSAGE" required></textarea>
                     </div>
                     
-                    <button type="submit" class="btn">SEND MESSAGE</button>
+                    <button type="submit" class="btn__send-msg">SEND MESSAGE</button>
                 </form>
             </div>
         </section>

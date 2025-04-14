@@ -23,8 +23,8 @@ h4 {
     text-transform: uppercase;
 }
 
-.button-text {
-    @include responsive-font(button);
+.btn {
+    @include responsive-font(btn);
     font-weight: $font-weight-bold;
     text-transform: uppercase;
 }
@@ -39,6 +39,4 @@ h4 {
     font-weight: $font-weight-bold;
 }
 
-.text-accent {
-    color: $color-accent;
-}
+

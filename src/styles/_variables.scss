@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 // Breakpoints
 $breakpoint-sm: 480px; // Mobile
 $breakpoint-md: 768px; // Tablet
@@ -23,7 +25,7 @@ $font-sizes-sm: (
     heading-m: 24px,
     subheading: 18px,
     body: 16px,
-    button: 16px,
+    btn: 16px,
     logo: 24px,
 );
 
@@ -48,7 +50,7 @@ $line-heights-sm: (
     heading-m: 32px,
     subheading: 28px,
     body: 26px,
-    button: 26px,
+    btn: 26px,
     logo: 32px,
 );
 
@@ -67,21 +69,21 @@ $letter-spacings-sm: (
     heading-xl: -1.14px,
     heading-l: -1px,
     heading-m: -0.33px,
-    button: 2.29px,
-    logo: 0.33px,
+    btn: 2.29px,
+    logo: -0.33px,
 );
 
 $letter-spacings-md: (
     heading-xl: -2.05px,
     heading-l: -1.5px,
     heading-m: -0.44px,
-    logo: 0.44px,
+    logo: -0.44px,
 );
 
 $letter-spacings-lg: (
     heading-xl: -2.5px,
     heading-l: -1.5px,
-    heading-m: -0px,
+    heading-m: 0px,
 );
 
 
