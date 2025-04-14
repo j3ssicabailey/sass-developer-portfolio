@@ -1,0 +1,44 @@
+@mixin responsive-font($type) {
+    // Mobile (base)
+    font-size: map-get($font-sizes-sm, $type);
+    line-height: map-get($line-heights-sm, $type);
+    $ls-sm: map-get($letter-spacings-sm, $type);
+    @if $ls-sm != null {
+        letter-spacing: $ls-sm;
+    }
+
+    // Tablet
+    @media (min-width: $breakpoint-md) {
+        $fs-md: map-get($font-sizes-md, $type);
+        $lh-md: map-get($line-heights-md, $type);
+        $ls-md: map-get($letter-spacings-md, $type);
+    
+        @if $fs-md != null {
+            font-size: $fs-md;
+        }
+        @if $lh-md != null {
+            line-height: $lh-md;
+        }
+        @if $ls-md != null {
+            letter-spacing: $ls-md;
+        }
+    }
+
+    // Desktop
+    @media (min-width: $breakpoint-lg) {
+        $fs-lg: map-get($font-sizes-lg, $type);
+        $lh-lg: map-get($line-heights-lg, $type);
+        $ls-lg: map-get($letter-spacings-lg, $type);
+    
+        @if $fs-lg != null {
+            font-size: $fs-lg;
+        }
+        @if $lh-lg != null {
+            line-height: $lh-lg;
+        }
+        @if $ls-lg != null {
+            letter-spacing: $ls-lg;
+        }
+    }
+}
+

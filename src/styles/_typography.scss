@@ -1,0 +1,44 @@
+// Typography Styles
+
+body {
+    @include responsive-font(body);
+    font-family: $font-space-grotesk;
+    font-weight: $font-weight-medium;
+    color: $color-white;
+}
+
+h1,h2 {
+    @include responsive-font(heading-xl);
+    font-weight: $font-weight-bold;
+}
+
+h3 {
+    @include responsive-font(heading-l);
+    font-weight: $font-weight-bold;
+}
+
+h4 {
+    @include responsive-font(heading-m);
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+}
+
+.button-text {
+    @include responsive-font(button);
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+}
+
+.logo {
+    @include responsive-font(logo);
+    font-weight: $font-weight-bold;
+}
+
+.subheading {
+    @include responsive-font(subheading);
+    font-weight: $font-weight-bold;
+}
+
+.text-accent {
+    color: $color-accent;
+}
