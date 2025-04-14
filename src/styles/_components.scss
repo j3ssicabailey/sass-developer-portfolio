@@ -1,0 +1,35 @@
+// buttons
+
+.btn__contact, .btn__view-project, .btn__view-code {
+    text-decoration: none;
+    color: $color-white;
+    border-bottom: 4px solid $color-accent;
+}
+.btn__view-project {
+    margin-right: 1rem;
+}
+
+// logo
+
+.logo {
+    font-weight: $font-weight-bold;
+    @include responsive-font(logo);
+    margin-bottom: 1.5rem;
+    
+    @media (min-width: $breakpoint-md) {
+        margin-bottom: 0;
+    }
+}
+
+// nav-bar
+
+.social-nav {
+    &__list {
+        display: flex;
+        gap: 1.5rem;
+        list-style: none;
+        .social-icon {
+            width: 22px;
+        }
+    }
+}
